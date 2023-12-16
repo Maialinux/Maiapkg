@@ -71,5 +71,20 @@ DESCRIÇÃO :
 
        Mostra os processos da instalação, detalhando arquivos e diretórios do programa.
 
-      
- AUTOR  : Luiz Eduardo    CONTATO: distromaialinux@gmail.com 
+## Modo de instalar:
+1- Baixe o arquivo Maiapkg.tar.gz
+
+### Descompacte o arquivo:
+2- tar -xvf Maiapkg.tar.gz
+
+### Dê permissão de executável:
+3- chmod 755 ./Maiapkg/maiapkg
+
+### Copie o arquivo maiapkg para o seguinte diretório /usr/sbin:
+4- cp -v ./Maiapkg/maiapkg /usr/sbin/
+
+### Teste com o seguinte comando:
+5- maiapkg -h
+
+
+### AUTOR  : Luiz Eduardo    CONTATO: distromaialinux@gmail.com 
