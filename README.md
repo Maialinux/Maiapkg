@@ -88,3 +88,7 @@ DESCRIÇÃO :
 
 
 ### AUTOR  : Luiz Eduardo    CONTATO: distromaialinux@gmail.com 
+
+### Observação:
+Este gerenciador de pacotes que eu fiz, foi baseado no curso do slackjeff > https://github.com/slackjeff. 
+Canal no youtube: https://www.youtube.com/@SlackJeff
