@@ -1,4 +1,4 @@
-# Maiapkg - Gerenciador de Pacotes 
+# Maiapkg - Gerenciador de Pacotes Para LFS/BLFS
 
 # AUTOR : Luiz Eduardo - distromaialinux@gmail.com
 
