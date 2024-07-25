@@ -63,11 +63,14 @@ DESCRIÇÃO :
 
 ## Modo de instalar:
 
-### Baixe o arquivo Maiapkg.tar.gz
-	
+### Baixe o arquivo Maiapkg:
+	git clone https://github.com/Maialinux/Maiapkg.git
+
+### Entre na pasta Maiapkg/
+	cd Maiapkg/
 
 ### Descompacte o arquivo:
-	tar -xvf Maiapkg.tar.gz
+	tar -xvf Maiapkg-main.tar.gz
 
 ### Dê permissão de executável:
 	chmod 755 ./Maiapkg/maiapkg
