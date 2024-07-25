@@ -1,4 +1,5 @@
-# Maiapkg - Gerenciador de pacotes para usar com Linux From Scratch 
+# Maiapkg 
+## Gerenciador de pacotes para usar com Linux From Scratch 
 
 # AUTOR : Luiz Eduardo - distromaialinux@gmail.com
 
