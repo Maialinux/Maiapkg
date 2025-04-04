@@ -3,50 +3,49 @@
 
 # AUTOR : Luiz Eduardo - distromaialinux@gmail.com
 
-VERSÃO : 1.0
+VERSÃO : 0.1
 
 DESCRIÇÃO :
   Maiapkg é um gerenciador de baixo nível 
   feito para minha distribuição Maialinux.    
   Changelog :
-  ( Versão 1.0 )
+  ( Versão 0.1 )
   - Adicionado verificação de dados.
   - Suporte a informações do pacote.
   - Diretório desc contendo informações do pacote
   - Adicionado as seguintes opções de comandos:
-  ( --ajuda, --empacota, --instala, --set-desc, --get-desc, --remove, --verbose ) 
+  ( --help, --build, --install, --set-info, --show-info, --remove, --verbose ) 
 
 ### Para aparecer o menu de ajuda 
 
-### Comando [ --ajuda | -h ]:
-	maiapkg --ajuda
+### Comando [ --help | -h ]:
+	maiapkg --help
 
 ### Para criar um pacote você precisa estar dentro do diretório principal do pacote para ser gerado. O mesmo será criado um diretório acima. Formato:  nome-versão-build.${extensao}
 ### Exemplo: maiapkg --empacota nome-versão-build.mpkg   
 
-### Comando [ --empacota | -b ]:
- 	maiapkg --empacota 
+### Comando [ --build | -b ]:
+ 	maiapkg --build 
 
 ### Para instalar o pacote .mpkg no seu sistema e criar um rastreador no diretório /var/log/pacotes.
-### Exemplo: maiapkg --instala nome-versão-build.mpkg    
+### Exemplo: maiapkg --install nome-versão-build.mpkg    
 
-### Comando [ --instala | -i ]:
-	maiapkg --instala
+### Comando [ --install | -i ]:
+	maiapkg --install
        
 ### Para gerar uma descrição para o programa, você tem que estar dentro da pasta do programa. 
-### O arquivo gerado ficará dentro da pasta ./desc/info. 
+### O arquivo gerado ficará dentro da pasta ./info/info. 
 
-### Comando [ --set-desc ]:
-	 maiapkg --set-desc 
+### Comando [ --set-info ]:
+	 maiapkg --set-info 
        
-### Para mostrar a descrição do pacote use o parametro --get-desc. A descrição mostrada estará sendo verificado dentro da pasta ./desc/info em /tmp. 
-### Exemplo: maiapkg --get-desc nome-versão-build.mpkg   
+### Para mostrar a descrição do pacote use o parametro --show-info. A descrição mostrada estará sendo verificado dentro da pasta ./info/info em /tmp. 
+### Exemplo: maiapkg --show-info nome-versão-build.mpkg   
 
-### Comando [ --get-desc ]:
-	maiapkg --get-desc
+### Comando [ --show-info ]:
+	maiapkg --show-info
       
 
-  
 
 ### Para remover os pacotes .mpkg, use o parâmetro --remove ou -r. 
 ### Ele consegue rastrear e ler o mapeamento do pacote em um arquivo de rastreio dentro de /var/log/pacotes/
